@@ -32,7 +32,7 @@ const ArticleListItem = function (props: ArticleListItemProps) {
             <span>{article.views}</span>
           </div>
         </div>
-        <Avatar src={user.avatar} size={48} />
+        <Avatar src={user.avatar} size={48}/>
       </div>
     </Link>
   );
